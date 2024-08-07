@@ -1,0 +1,81 @@
+.account-settings-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .account-settings-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .account-settings-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .account-settings-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .account-settings-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .account-settings-container .change-password-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .account-settings-container .change-password-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .account-settings-container .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .account-settings-container .save-button,
+  .account-settings-container .cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .account-settings-container .save-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .account-settings-container .save-button:hover {
+    background-color: #218838;
+  }
+  
+  .account-settings-container .cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .account-settings-container .cancel-button:hover {
+    background-color: #c82333;
+  }
+  

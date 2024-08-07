@@ -1,0 +1,92 @@
+.violations-container {
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .violations-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders between cells do not overlap */
+    margin-bottom: 20px;
+  }
+  
+  .violations-table th,
+  .violations-table td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 12px;
+    text-align: left; /* Left-align text */
+  }
+  
+  .violations-table th {
+    background-color: #f4f4f4; /* Light gray background for headers */
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .violations-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors */
+  }
+  
+  .violations-table tbody tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+  }
+  
+  .violations-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .violations-footer p {
+    margin: 0;
+  }
+  
+  .violations-actions {
+    display: flex;
+    gap: 10px; /* Adjust space between buttons */
+  }
+  
+  .action-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pay-fine {
+    background-color: #28a745;
+  }
+  
+  .pay-fine:hover {
+    background-color: #218838;
+  }
+  
+  .appeal-violation {
+    background-color: #dc3545;
+  }
+  
+  .appeal-violation:hover {
+    background-color: #c82333;
+  }
+  

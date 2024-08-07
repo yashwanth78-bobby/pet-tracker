@@ -1,0 +1,213 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #92969b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #444;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+}
+
+/* General Container Styles */
+.login-container, .register-container, .dashboard-container, .pet-registration-container {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px; /* Reduced padding */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard Styles */
+.dashboard-container {
+  background: #f9f9f9;
+  padding: 20px;
+  min-height: 100vh; /* Ensure full height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Dashboard Heading */
+.dashboard-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Actions Section */
+.dashboard-container .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard-container button {
+  background-color: #28a745;
+  width: 48%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-container button:nth-child(2) {
+  background-color: #17a2b8;
+}
+
+.dashboard-container button:hover {
+  background-color: #218838;
+}
+
+.dashboard-container button:nth-child(2):hover {
+  background-color: #138496;
+}
+
+/* Info Section */
+.dashboard-container .info {
+  margin-bottom: 20px;
+}
+
+.dashboard-container .info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.dashboard-container .info span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Data Section */
+.dashboard-container .data-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-container .data-column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.dashboard-container .data-column h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.dashboard-container .card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.dashboard-container .card h4 {
+  margin: 0 0 10px;
+  color: #007bff;
+}
+
+.dashboard-container .card p {
+  margin: 0;
+  color: #555;
+}
+
+/* Home Container */
+.home-container {
+  text-align: center;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 300px;
+}
+
+/* Role Selection */
+.role-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.role-selection button {
+  margin: 10px 0; /* Adjust margin to provide space between buttons */
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.role-selection button:hover {
+  background-color: #0056b3;
+}
+
+.role-selection button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+/* Add Tenant Container */
+.add-tenant-container, .add-violation-container {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.add-tenant-container h2, .add-violation-container h2 {
+  margin-bottom: 20px;
+}
+
+.add-tenant-container label, .add-violation-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-tenant-container input, .add-violation-container input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-tenant-container button, .add-violation-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 10px;
+}
+
+.add-tenant-container button:hover, .add-violation-container button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,34 @@
+src/components/Navbar.css
+.navbar {
+    position: sticky; /* Stick the navbar to the top */
+    top: 0;           /* Align it at the top */
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    z-index: 1000;    /* Ensure it's on top of other content */
+    width: 100vw;     /* Full viewport width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center align items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 15px; /* Adjust spacing between items */
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  

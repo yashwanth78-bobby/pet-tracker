@@ -1,0 +1,111 @@
+.notifications-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .notification-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .notification-item:last-child {
+    border-bottom: none;
+  }
+  
+  .notifications-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .action-button {
+    background-color: #dd7bf1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .mark-read {
+    background-color: #132116;
+  }
+  
+  .mark-read:hover {
+    background-color: #218838;
+  }
+  
+  .view-details {
+    background-color: #dc3545;
+  }
+  
+  .view-details:hover {
+    background-color: #c82333;
+  }
+  /* src/components/Notifications.css */
+/* src/components/Notifications.css */
+.notifications-container {
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f4f4f9;
+}
+
+.notification {
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  background-color: #2196F3; /* Default color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.notification:hover {
+  background-color: #1976D2; /* Darker color on hover */
+  transform: translateY(-2px);
+}
+
+.notification.success {
+  background-color: #4CAF50; /* Green for success */
+}
+
+.notification.error {
+  background-color: #F44336; /* Red for error */
+}
+
+.notification.warning {
+  background-color: #FFC107; /* Yellow for warning */
+}
+
+.notification .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.notification .message {
+  flex: 1;
+}
+
